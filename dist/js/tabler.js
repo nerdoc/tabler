@@ -8360,7 +8360,7 @@
 	  return new Toast(toastTriggerEl);
 	});
 
-	var prefix = 'tblr-';
+	var prefix = 'medux-';
 	var hexToRgba = function hexToRgba(hex, opacity) {
 	  var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
 	  return result ? "rgba(".concat(parseInt(result[1], 16), ", ").concat(parseInt(result[2], 16), ", ").concat(parseInt(result[3], 16), ", ").concat(opacity, ")") : null;
