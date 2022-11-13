@@ -15,8 +15,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  border: var(--tblr-border-size) var(--tblr-border-style) var(--tblr-border-color);
-  border-radius: var(--tblr-border-radius);
+  border: var(--medux-border-size) var(--medux-border-style) var(--medux-border-color);
+  border-radius: var(--medux-border-radius);
 }
 
 .flag-country-ad {

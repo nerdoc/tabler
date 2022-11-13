@@ -1,4 +1,4 @@
-$prefix: "tblr-" !default;
+$prefix: "medux-" !default;
 
 // BASE CONFIG
 $enable-social-colors: true !default;
@@ -158,6 +158,8 @@ $body-color: $dark !default;
 $color-contrast-dark: $dark !default;
 $color-contrast-light: $light !default;
 
+$medux: #9fc015 !default;
+
 $blue: #206bc4 !default;
 $azure: #4299e1 !default;
 $indigo: #4263eb !default;
@@ -196,7 +198,7 @@ $disabled-color: var(--#{$prefix}gray-300) !default;
 $link-color: var(--#{$prefix}primary) !default;
 $link-hover-color: var(--#{$prefix}primary-darken) !default;
 
-$primary: $blue !default;
+$primary: $medux !default;
 $secondary: $text-muted !default;
 $success: $green !default;
 $info: $azure !default;
